@@ -1,6 +1,6 @@
 # Outbound call recording
 
-This plug-in provides call recording for outbound calls.  
+This Flex plugin provides call recording for outbound calls.  
 Calls are recorded on dual channels, and the recorded data can be viewed from within Flex Insights.  
 
 ## Configuration
@@ -15,7 +15,7 @@ The Serverless Function is called from within the Flex Plugin.
 % cp .env.sample .env
 ```
 
-Update the copied .env file with an editor.The contents to be updated are as follows.
+Update the copied .env file with an editor. The contents to be updated are as follows.
 
 Params|Values
 :--|:--
@@ -256,6 +256,6 @@ On the Functions side, It is only use the Recording API to start recording the C
 
 ## Restrictions
 
-This plugin will not work with Salesforce Integration because the `afterAcceptTask` event of Actions will not fired.
+This plugin will not work with Salesforce Integration, Because the `afterAcceptTask` event of Actions will not fired.
 
 
