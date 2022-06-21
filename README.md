@@ -256,6 +256,6 @@ On the Functions side, It is only use the Recording API to start recording the C
 
 ## Restrictions
 
-This plugin will not work with Salesforce Integration, Because the `afterAcceptTask` event of Actions will not fired.
+If you wish to use this plugin with Salesforce integration, you will need to upgrade Click-to-Dial. Please refer to the following link for upgrade instructions.
 
-
+<https://www.twilio.com/docs/flex/admin-guide/integrations/salesforce/upgrade-guide>
